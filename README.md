@@ -6,6 +6,12 @@ Monitor the status of your Tailscale devices and receive Telegram notifications 
 
 This Cloudflare Worker provides a serverless solution for monitoring Tailscale devices. It leverages Tailscale’s OAuth API to fetch device information and Cloudflare’s KV store to maintain state and cache API tokens. Notifications for device status changes (offline, online, reminder for still offline) are sent via Telegram.
 
+## Telegram Notifications
+
+Here's an example of what the Telegram notifications look like:
+
+![Tailscale Monitor Telegram Notification](assets/tg.png)
+
 ## Features
 
 - **Scheduled Monitoring:** Automatically checks Tailscale device statuses on a configurable cron schedule.
