@@ -1,0 +1,21 @@
+{
+  "name": "cloudflare-worker-tailscale-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishjullia/cloudflare-worker-tailscale-monitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ashishjullia/cloudflare-worker-tailscale-monitor/issues"
+  },
+  "homepage": "https://github.com/ashishjullia/cloudflare-worker-tailscale-monitor#readme"
+}
